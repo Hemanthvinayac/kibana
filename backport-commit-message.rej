@@ -1,0 +1,26 @@
+Backport PR #8717
+---------
+
+**Commit 1:**
+[aggConfig] use `getField`/`getFieldDisplayName` helpers
+
+* Original sha: 0190cda30e0548d8305659068f9626e2524038bb
+* Authored by spalger <email@spalger.com> on 2016-10-17T20:21:08Z
+
+**Commit 2:**
+[aggParams/field] throw better error when field missing
+
+* Original sha: 1ee969c97a4e325c9c3d16131e9c8b34875adc67
+* Authored by spalger <email@spalger.com> on 2016-10-17T20:33:26Z
+
+**Commit 3:**
+[tests] update tests that depended on `aggConfig#field()`
+
+* Original sha: 51cc35b605c9d9cf45083f85e9160a58c402ac33
+* Authored by spalger <email@spalger.com> on 2016-10-17T21:26:31Z
+
+**Commit 4:**
+[aggTypes/percentile] fix reference to aggConfig.fieldDisplayName()
+
+* Original sha: ae3223262b76ecfb8f6ec3acaf4fc6d6d25ce108
+* Authored by spalger <email@spalger.com> on 2016-10-18T02:06:27Z
